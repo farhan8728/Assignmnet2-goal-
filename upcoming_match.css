@@ -107,6 +107,7 @@ body{
     font-size: 14px;
     padding: 10px 2px;
     color: #000;
+    border: 1px solid #f2f2f2;
 }
 .All_Group:focus{
     background-color: #DD0000;
@@ -187,6 +188,10 @@ body{
     width: 13px;
     height: 16px;
 }
+.second_part_item{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -196,6 +201,7 @@ body{
 .middlepart{
     display: flex;
     margin-left: 347px;
+    flex-direction: row;
     
 }
 
@@ -276,7 +282,7 @@ body{
 
 @media screen and (max-width:700px) {
     .header {
-        height: 92.1vh;
+        height: 91.5vh;
         display: flex;
         flex-direction: column;
         width: 85% !important;
@@ -338,6 +344,34 @@ body{
     .second_part_item{
         display: flex;
         flex-direction: column;
+    }
+    #second_part_list{
+        margin-top: 15px;
+    }
+    .middlepart {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 45px;
+    }
+    .middle_part{
+        width: 85vw;
+    }
+    #middle_part_one{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .contact_form{
+        margin-top: -1.25rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2.5rem;
+    }
+    .contact_form_list{
+        padding-bottom: 0.938rem;
+    }
+    .footer{
+        height: 60vh;
     }
     
 }
