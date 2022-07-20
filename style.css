@@ -254,7 +254,7 @@ body{
 
 @media screen and (max-width:700px){
     .header {
-        height: 92vh;
+        height: 94vh;
         display: flex;
         flex-direction: column;
         width: 85% !important;
@@ -274,7 +274,7 @@ body{
         margin-top: 0.625rem;
         line-height: 1.438rem;
         margin-bottom: 0.938rem;
-        margin-left: 4.625rem;
+        margin-left: 65px;
     }
     .watch_live {
         font-size: 0.75rem;
