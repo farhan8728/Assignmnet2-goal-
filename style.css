@@ -254,10 +254,10 @@ body{
 
 @media screen and (max-width:700px){
     .header {
-        width: 80% !important;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
+        width: 85% !important;
     }
     .header_title {
         font-size: 1rem;
