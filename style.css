@@ -254,7 +254,7 @@ body{
 
 @media screen and (max-width:700px){
     .header {
-        height: 93vh;
+        height: 92.3vh;
         display: flex;
         flex-direction: column;
         width: 85% !important;

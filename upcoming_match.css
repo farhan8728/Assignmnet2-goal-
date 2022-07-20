@@ -276,7 +276,7 @@ body{
 
 @media screen and (max-width:700px) {
     .header {
-        height: 92vh;
+        height: 92.2vh;
         display: flex;
         flex-direction: column;
         width: 85% !important;
@@ -296,7 +296,7 @@ body{
         margin-top: 0.625rem;
         line-height: 1.438rem;
         margin-bottom: 0.938rem;
-        margin-left: 74px;
+        margin-left: 63px;
     }
     .watch_live {
         font-size: 0.75rem;
@@ -309,6 +309,35 @@ body{
         height: 45.291391vh;
         width: 60vw;
         margin-left: 20%;
+    }
+    .first_part{
+        background-color: #fff;
+        width: 80%;
+        margin-left: 3.125rem;
+        margin-top: -1.875rem;
+    }
+    .Upcoming_match{
+        border: 0.063rem solid rgba(242, 242, 242, 1);
+        font-size: 1.25rem;
+        width: 50vw;
+    }
+    .All_Group{
+        border: 0.063rem solid rgba(242, 242, 242, 1);
+        font-size: 1.25rem;
+        width: 50vw;
+    }
+    .Blog{
+        font-size: 1.25rem;
+        width: 50vw;
+    }
+    .second_part {
+        margin-top: 12.5rem;
+        margin-left: -340px;
+        width: 85vw !important;
+    }
+    .second_part_item{
+        display: flex;
+        flex-direction: column;
     }
     
 }
