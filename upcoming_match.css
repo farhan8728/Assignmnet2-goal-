@@ -272,3 +272,43 @@ body{
     padding-top: 10px;
     text-align: center;
 }
+
+
+@media screen and (max-width:700px) {
+    .header {
+        height: 92vh;
+        display: flex;
+        flex-direction: column;
+        width: 85% !important;
+    }
+    .header_title {
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .left_side{
+        margin-left: 10%;
+        margin-top: 1.25rem;
+        margin-right: 6.25rem;
+    }
+    .header_para {
+        font-size: 0.75rem;
+        margin-top: 0.625rem;
+        line-height: 1.438rem;
+        margin-bottom: 0.938rem;
+        margin-left: 74px;
+    }
+    .watch_live {
+        font-size: 0.75rem;
+        padding: 0.625rem 0.938rem;
+        border-radius: 0.313rem;
+        text-decoration: none;
+        margin-left: 54px;
+    }
+    .right_side img {
+        height: 45.291391vh;
+        width: 60vw;
+        margin-left: 20%;
+    }
+    
+}
