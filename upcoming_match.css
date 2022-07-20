@@ -200,7 +200,7 @@ body{
 
 .middlepart{
     display: flex;
-    margin-left: 347px;
+    margin-left: 330px;
     flex-direction: row;
     
 }
@@ -215,7 +215,7 @@ body{
 }
 
 #middle_part_one{
-    margin-left: 17px;
+    margin-left: 24px;
     margin-right: -5px;
 }
 

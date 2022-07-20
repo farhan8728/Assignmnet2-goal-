@@ -9,6 +9,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Quantico', sans-serif;
     font-family: 'Spline Sans Mono', monospace;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 /* header_start */
