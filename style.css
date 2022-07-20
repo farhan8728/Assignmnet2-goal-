@@ -16,9 +16,9 @@ body{
     background-color: #000;
     color: #fff;
     display: flex;
-    height: 450px;
-    border-radius: 10px;
-    max-width: 992px;
+    height: 74.87520798668885vh;
+    border-radius: 0.625rem;
+    max-width: 77.5vw;
     margin: 0 auto;
 }
 .left_side{
@@ -239,4 +239,11 @@ body{
 .contact_form{
    text-align: center;
    
+}
+
+@media screen and (min-width:768px) and (max-width: 992px){
+    .header{
+        width: 100%;
+        height: 74.87520798668885vh;
+    }
 }
