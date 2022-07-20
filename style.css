@@ -254,7 +254,7 @@ body{
 
 @media screen and (max-width:700px){
     .header {
-        height: 94vh;
+        height: 93vh;
         display: flex;
         flex-direction: column;
         width: 85% !important;
@@ -274,14 +274,14 @@ body{
         margin-top: 0.625rem;
         line-height: 1.438rem;
         margin-bottom: 0.938rem;
-        margin-left: 65px;
+        margin-left: 70px;
     }
     .watch_live {
         font-size: 0.75rem;
         padding: 0.625rem 0.938rem;
         border-radius: 0.313rem;
         text-decoration: none;
-        margin-left: 74px;
+        margin-left: 63px;
     }
     .right_side img {
         height: 45.291391vh;
