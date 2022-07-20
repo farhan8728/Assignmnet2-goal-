@@ -204,7 +204,7 @@ body{
 .middlepart{
     display: flex;
     margin-top: 30px;
-    margin-left: 310px;
+    margin-left: 175px;
 }
 
 
@@ -348,5 +348,47 @@ body{
     }
     .footer{
         height: 60vh;
+    }
+}
+
+
+@media screen and (max-width:992px) and (min-width:701px){
+    .header{
+        width:800px;
+        height: 39.8vh;
+    }
+    .header_title{
+        font-size: 22px;
+    }
+    .header_para{
+        font-size: 12px;
+    }
+    .right_side{
+        
+    }
+    .watch_live{
+        padding: 10px;
+        font: 12px;
+    }
+    .first_part{
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .Upcoming_match{
+        margin-left: 80px;
+        width: 200px;
+    }
+    .All_Group{
+        margin-left: 100px;
+    }
+    .Blog{
+        margin-left: 100px;
+    }
+    .second_part_item{
+        margin-top: 350px;
     }
 }
